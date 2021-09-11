@@ -7,10 +7,8 @@ num1 = int(input("Introduce el primer sumando: "))
 num2 = int(input("Introduce el segundo sumando: "))
 sum = num1 + num2
 
-print("La suma es : ",num1," + ",num2," = ",sum)
-
 nombre = input("Introduzca tu nombre: ")
 
 while (sum > 0):
-    print(nombre)
+    print(nombre, end=" ")
     sum -= 1
