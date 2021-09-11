@@ -7,6 +7,10 @@ num1 = int(input("Introduce el primer sumando: "))
 num2 = int(input("Introduce el segundo sumando: "))
 sum = num1 + num2
 
+if (sum <= 0):
+    print("Suma no valida")
+    quit()
+
 nombre = input("Introduzca tu nombre: ")
 
 while (sum > 0):
